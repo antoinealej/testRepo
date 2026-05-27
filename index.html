@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History of Lunar Exploration</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #0b0c10;
+            color: #c5c6c7;
+        }
+        a {
+            color: #66fcf1;
+            text-decoration: none;
+        }
+        a:hover, a:focus {
+            text-decoration: underline;
+        }
+        header {
+            background-color: #1f2833;
+            padding: 1rem 2rem;
+            text-align: center;
+            border-bottom: 3px solid #45a29e;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #66fcf1;
+        }
+        nav {
+            background-color: #1f2833;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #45a29e;
+        }
+        nav a {
+            margin: 0 1rem;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        nav a:focus {
+            outline: 2px solid #66fcf1;
+            outline-offset: 2px;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            margin-bottom: 3rem;
+        }
+        h2 {
+            color: #45a29e;
+            border-bottom: 2px solid #45a29e;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1rem;
+            font-size: 1.75rem;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #c5c6c7;
+        }
+        /* Timeline styles */
+        .timeline {
+            position: relative;
+            margin: 2rem 0;
+            padding-left: 20px;
+            border-left: 3px solid #45a29e;
+        }
+        .timeline-item {
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -11px;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            background-color: #66fcf1;
+            border-radius: 50%;
+            border: 3px solid #0b0c10;
+        }
+        .timeline-item h3 {
+            margin: 0 0 0.3rem 0;
+            color: #66fcf1;
+            font-size: 1.3rem;
+        }
+        .timeline-item time {
+            font-size: 0.9rem;
+            color: #45a29e;
+            font-weight: 600;
+        }
+        .timeline-item p {
+            margin: 0.3rem 0 0 0;
+        }
+        /* Image styles */
+        figure {
+            margin: 1rem 0;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(70, 162, 158, 0.5);
+        }
+        figcaption {
+            font-size: 0.9rem;
+            color: #66fcf1;
+            margin-top: 0.3rem;
+        }
+        /* Responsive typography */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            nav a {
+                margin: 0 0.5rem;
+                font-size: 0.9rem;
+            }
+            h2 {
+                font-size: 1.4rem;
+            }
+            .timeline-item h3 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>History of Lunar Exploration</h1>
+    </header>
+    <nav aria-label="Primary navigation">
+        <a href="#introduction">Introduction</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#future">Future Initiatives</a>
+    </nav>
+    <main>
+        <section id="introduction" tabindex="0">
+            <h2>Introduction</h2>
+            <p>The exploration of the Moon has fascinated humanity for centuries, culminating in a series of remarkable missions that have expanded our understanding of Earth's natural satellite. From the earliest robotic probes to the historic Apollo manned landings and modern lunar programs, the Moon has been a key focus of space exploration efforts worldwide.</p>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg" alt="Full Moon as seen from Earth" loading="lazy">
+                <figcaption>The Moon as seen from Earth</figcaption>
+            </figure>
+        </section>
+
+        <section id="timeline" tabindex="0">
+            <h2>Chronological Timeline of Major Lunar Missions</h2>
+
+            <article class="timeline-item">
+                <h3>1959 - Luna 1</h3>
+                <time datetime="1959-01-02">January 2, 1959</time>
+                <p>The Soviet Union launched Luna 1, the first spacecraft to reach the vicinity of the Moon, marking the beginning of robotic lunar exploration.</p>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Luna_1.jpg" alt="Luna 1 spacecraft illustration" loading="lazy">
+                    <figcaption>Luna 1 spacecraft</figcaption>
+                </figure>
+            </article>
+
+            <article class="timeline-item">
+                <h3>1969 - Apollo 11</h3>
+                <time datetime="1969-07-20">July 20, 1969</time>
+                <p>Apollo 11 was the first manned mission to land on the Moon. Neil Armstrong and Buzz Aldrin became the first humans to walk on the lunar surface, while Michael Collins orbited above.</p>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Aldrin_Apollo_11.jpg" alt="Buzz Aldrin on the Moon during Apollo 11 mission" loading="lazy">
+                    <figcaption>Buzz Aldrin on the Moon during Apollo 11</figcaption>
+                </figure>
+            </article>
+
+            <article class="timeline-item">
+                <h3>1976 - Viking 1 and 2 Orbiters</h3>
+                <time datetime="1976-06-19">June 19, 1976</time>
+                <p>Though primarily Mars missions, Viking orbiters contributed to lunar science by providing comparative planetary data, enhancing understanding of lunar geology.</p>
+            </article>
+
+            <article class="timeline-item">
+                <h3>1994 - Clementine Mission</h3>
+                <time datetime="1994-02-19">February 19, 1994</time>
+                <p>A joint mission by NASA and the Strategic Defense Initiative Organization, Clementine mapped the lunar surface and searched for water ice at the poles.</p>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Clementine_Mission_patch.png" alt="Clementine mission patch" loading="lazy">
+                    <figcaption>Clementine mission patch</figcaption>
+                </figure>
+            </article>
+
+            <article class="timeline-item">
+                <h3>2009 - Lunar Reconnaissance Orbiter (LRO)</h3>
+                <time datetime="2009-06-18">June 18, 2009</time>
+                <p>NASA's LRO has been mapping the Moon in high detail, identifying landing sites and studying lunar resources to support future missions.</p>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Lunar_Reconnaissance_Orbiter_-_LRO_-_NASA_-_2009.jpg" alt="Lunar Reconnaissance Orbiter in space" loading="lazy">
+                    <figcaption>Lunar Reconnaissance Orbiter (LRO)</figcaption>
+                </figure>
+            </article>
+
+            <article class="timeline-item">
+                <h3>2019 - Chang'e 4</h3>
+                <time datetime="2019-01-03">January 3, 2019</time>
+                <p>China's Chang'e 4 became the first mission to successfully land on the far side of the Moon, conducting scientific experiments and exploration.</p>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Chang%27e_4_lander_and_rover.jpg" alt="Chang'e 4 lander and rover on the Moon" loading="lazy">
+                    <figcaption>Chang'e 4 lander and rover on the Moon</figcaption>
+                </figure>
+            </article>
+
+            <article class="timeline-item">
+                <h3>2022 - Artemis I</h3>
+                <time datetime="2022-11-16">November 16, 2022</time>
+                <p>NASA's Artemis I mission was an uncrewed test flight around the Moon, paving the way for future crewed lunar exploration under the Artemis program.</p>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Artemis_I_launch_-_NASA.jpg" alt="Artemis I launch" loading="lazy">
+                    <figcaption>Artemis I launch</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <section id="future" tabindex="0">
+            <h2>Future Lunar Exploration Initiatives</h2>
+            <p>The future of lunar exploration is vibrant and ambitious, with multiple space agencies and private companies planning missions to establish a sustainable human presence on the Moon. Key initiatives include:</p>
+            <ul>
+                <li><strong>Artemis Program:</strong> NASA aims to land the first woman and next man on the Moon by the mid-2020s, establishing a lunar Gateway space station and sustainable surface exploration.</li>
+                <li><strong>International Lunar Research Station (ILRS):</strong> A collaboration led by China and Russia to build a research station on the lunar surface for scientific and technological development.</li>
+                <li><strong>Commercial Lunar Payload Services (CLPS):</strong> NASA contracts private companies to deliver scientific instruments and technology demonstrations to the Moon.</li>
+                <li><strong>Moon Village Concept:</strong> Proposed by the European Space Agency (ESA), this initiative envisions an international lunar base supporting research, industry, and tourism.</li>
+            </ul>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Artemis_Program_logo.svg" alt="Artemis Program logo" loading="lazy" style="max-width:150px;">
+                <figcaption>Artemis Program logo</figcaption>
+            </figure>
+        </section>
+    </main>
+</body>
+</html>
