@@ -1,7 +1,7 @@
-import './App.css';
+import HistoryPage from './history/HistoryPage';
 
 function App() {
-  return <div>Hello World!</div>;
+  return <HistoryPage />;
 }
 
 export default App;
